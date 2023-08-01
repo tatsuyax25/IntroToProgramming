@@ -8,6 +8,17 @@ public class HelloWorld {
      */
 
     // Methods - a behavior of a class
+    // Method signature : <access modifers> <non access modifer> <return-type> <name of method> <params>
+    // Access Modifers:
+    /*
+     * - public: Accessible all through out the progam
+     * - private: Can only be accessed inside of the class
+     *      if we want to manipulate or view the values of private fields we have to use
+     *      getter and setter methods
+     * - protected: available within the class, by all sub classes as well as
+     *              by any class that is declared within the same package
+     * - default: accessible in the class and in the same package.
+     */
      public static int favoriteNumber(){
         return 22;
      }
